@@ -1,0 +1,33 @@
+### Variables
+
+@username = "Priyanshu T"
+@password = "123456"
+@email = "priyanshu9943@gmail.com"
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NWQwYTY1YjU0OWJkZGVmMWMzMWJlOGQiLCJpYXQiOjE3MDgxNzMxMDcsImV4cCI6MTcxMDc2NTEwN30.1Jx2cxW-jZ6kHYRbhvaLe_cbqIdZpencZl8OovbVH9k
+
+### Auth route
+GET http://localhost:3000/auth/
+Cookie: token={{token}}; Path=/; HttpOnly; Secure
+
+
+### Register
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "username": {{username}},
+  "email": {{email}},
+  "password": {{password}}
+}
+
+
+### Login
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": {{email}},
+  "password": {{password}}
+}
