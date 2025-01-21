@@ -2,7 +2,7 @@ TASK 1 : RESPONSIVE LANDING PAGE
 
 PAGE NAME : CarScrubz
 
-WEBSITE: [https://carscrubz.netlify.app/](https://carscrubz.netlify.app/)
+WEBSite:http://127.0.0.1:5500/
 
 THEME : Car Washing Website
 
